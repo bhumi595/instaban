@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from termcolor import colored
 from fun.loader import *
 
-
+path = "chromedriver"
 
 def reporterboting():
         os.system("clear")
@@ -26,7 +26,7 @@ def reporterboting():
             loaderone()
 #            firts
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -59,7 +59,7 @@ def reporterboting():
 #_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_---_-_-_-
             # second
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -93,7 +93,7 @@ def reporterboting():
             #third
 
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -126,7 +126,7 @@ def reporterboting():
 #_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_---_-_-_-
             # fourth
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -161,7 +161,7 @@ def reporterboting():
 
             # firts
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -196,7 +196,7 @@ def reporterboting():
 
             # second
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -232,7 +232,7 @@ def reporterboting():
             #third
 
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -265,7 +265,7 @@ def reporterboting():
 #_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_---_-_-_-
             # fourth
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -299,7 +299,7 @@ def reporterboting():
 #_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_---_-_-_-
             # fourth
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -331,7 +331,7 @@ def reporterboting():
             loaderenine()
 
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
@@ -363,7 +363,7 @@ def reporterboting():
             loaderenine()
 
             path = "./chromedriver"
-            Browser = webdriver.Chrome()
+            Browser = webdriver.Chrome(path)
             Browser.get('https://www.instagram.com/accounts/login/')
             Browser.implicitly_wait(6)
             usernames = Browser.find_element_by_name("username")
